@@ -8,11 +8,14 @@ import Project from "./Project";
 import Skill from "./Skill";
 import Experience from "./Experience";
 import Contact from "./Contact";
+import { AnimatePresence } from "framer-motion";
 
 export default function App() {
   return (
     <>
+     {/* <AnimatePresence mode="wait"> */}
       <Outlet />
+      {/* </AnimatePresence> */}
     </>
   );
 }
@@ -36,7 +39,7 @@ const appRouter = createBrowserRouter([
         element: <Project />,
       },
       {
-        path: "/skill",
+        path: "/skills",
         element: <Skill />,
       },
       {

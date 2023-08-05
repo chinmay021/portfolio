@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { Link } from "react-router-dom";
 // import { Label } from "@/components/ui/label";
 // import { Switch } from "@/components/ui/switch";
+import { motion } from "framer-motion";
 
 const Home = () => {
   useEffect(() => {
@@ -30,7 +31,7 @@ const Home = () => {
             href="https://drive.google.com/file/d/1xRPPrtaTr0tngOALP9Q5Kd4EhSd28vW4/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
-            className="flex gap-2 justify-center items-center w-full btn-primary bg-white px-4 py-2 rounded-lg hover:bg-black/90 hover:text-white transition-all  ease-in-out"
+            className="flex gap-2 justify-center items-center w-full btn-primary bg-white px-4 py-2 rounded-lg hover:bg-black/90 hover:text-white duration-500"
           >
             <svg
               stroke="currentColor"
@@ -66,15 +67,29 @@ const Home = () => {
       ></div>
       {/* hero section */}
       <>
-        <div className="name text-white z-[3] font-Satisfy text-[clamp(6rem,10vw,10rem)] whitespace-nowrap p-[0rem_clamp(1rem,2vw,3rem)] rounded-[clamp(0.4rem,0.75vw,1rem)] m-0">
+        <motion.div
+          initial={{ y: 100, opacity: 0 }}
+          animate={{ y: 0, opacity: 1 }}
+          // exit={{ x: 0 }}
+          transition={{ ease: "easeInOut", duration: 0.5 }}
+          className="name text-white z-[3] font-Satisfy text-[clamp(6rem,10vw,10rem)] whitespace-nowrap p-[0rem_clamp(1rem,2vw,3rem)] rounded-[clamp(0.4rem,0.75vw,1rem)] m-0"
+        >
           Chinmay.
-        </div>
-        <div className="subtext my-2 text-center mx-12 z-[3] md:w-[40em] w-[30em] ">
+        </motion.div>
+        <motion.div 
+         initial={{  opacity: 0 }}
+         animate={{  opacity: 1  }}
+         // exit={{ x: 0 }}
+         transition={{ ease: "easeInOut", duration: 0.5 }}className="subtext my-2 text-center mx-12 z-[3] md:w-[40em] w-[30em] ">
           <h2 className="text-sm 2xl:text-lg text-zinc-300 ">
             Hi 👋, I’m a passionate frontend developer from India.
           </h2>
-        </div>
-        <nav className="my-4  z-[3] font-Poppins  md:tracking-wider">
+        </motion.div>
+        <motion.div
+         initial={{opacity: 0 }}
+         animate={{  opacity: 1  }}
+         // exit={{ x: 0 }}
+         transition={{ ease: "easeInOut", duration: 0.5 }} className="my-4  z-[3] font-Poppins  md:tracking-wider">
           <ul className="flex items-center justify-center gap-4">
             <Link
               className="text-sm  duration-500 text-white  hover:text-green-500"
@@ -90,7 +105,7 @@ const Home = () => {
             </Link>
             <Link
               className="text-sm duration-500 text-white  hover:text-blue-600"
-              to="/skill"
+              to="/skills"
             >
               Skills
             </Link>
@@ -101,7 +116,7 @@ const Home = () => {
               Contact
             </Link>
           </ul>
-        </nav>
+        </motion.div>
       </>
     </div>
   );
