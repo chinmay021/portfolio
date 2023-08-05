@@ -14,7 +14,8 @@ Hi 👋, Have a look into my journey 😃
 
 ## Walkthrough
 
-<video src="./src/assests/portfolio_video.mp4" controls title="portfolio walkthrough"></video>
+
+https://github.com/chinmay021/portfolio/assets/37647219/c22dbed7-f0e4-4c90-af2a-ac8bf7eba149
 
 ## Copyright
 
