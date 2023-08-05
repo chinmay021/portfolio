@@ -11,7 +11,7 @@ import Contact from "./Contact";
 
 import ReactGA from "react-ga4";
 
-const MEASUREMENT_ID = "G-JKDBL7S9GZ";
+const MEASUREMENT_ID = "G-Q4Q5K6N2R1";
 ReactGA.initialize(MEASUREMENT_ID);
 
 export default function App() {
