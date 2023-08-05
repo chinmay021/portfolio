@@ -1,4 +1,4 @@
-![Logo](https://i.ibb.co/kQWytys/portfolio-1.jpg)
+![Logo](./src/assests/portfolio.jpg)
 
 # Portfolio
 
