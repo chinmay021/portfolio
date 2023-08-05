@@ -1,4 +1,6 @@
-![Logo](./src/assests/portfolio.jpg)
+![portfolio_image](https://github.com/chinmay021/portfolio/assets/37647219/c17b3a4c-497d-4b46-90fe-5e36ccdfd2e0)
+
+
 
 # Portfolio
 
@@ -14,7 +16,8 @@ Hi 👋, Have a look into my journey 😃
 
 ## Walkthrough
 
-<video src="./src/assests/portfolio_video.mp4" controls title="portfolio walkthrough"></video>
+
+https://github.com/chinmay021/portfolio/assets/37647219/c22dbed7-f0e4-4c90-af2a-ac8bf7eba149
 
 ## Copyright
 
