@@ -1,8 +1,21 @@
-# React + Vite
+![Logo](https://i.ibb.co/kQWytys/portfolio-1.jpg)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Portfolio
 
-Currently, two official plugins are available:
+Hi 👋, Have a look into my journey 😃
+[chinmaykumar.vercel.app](https://chinmaykumar.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+
+- React.js
+- Framer motion
+- Tailwind CSS
+- React Router
+
+## Walkthrough
+
+<video src="./src/assests/portfolio_video.mp4" controls title="portfolio walkthrough"></video>
+
+## Copyright
+
+No copyright issues. Feel free to copy anything and everything from this website. If you need any help, ping me !
