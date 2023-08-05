@@ -76,21 +76,25 @@ const Home = () => {
         >
           Chinmay.
         </motion.div>
-        <motion.div 
-         initial={{  opacity: 0 }}
-         animate={{  opacity: 1  }}
-         // exit={{ x: 0 }}
-         transition={{ ease: "easeInOut", duration: 0.5 }}className="subtext my-2 text-center mx-12 z-[3] md:w-[40em] w-[30em] ">
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          // exit={{ x: 0 }}
+          transition={{ ease: "easeInOut", duration: 0.5 }}
+          className="subtext my-2 text-center mx-12 z-[3] md:w-[40em] w-[30em] "
+        >
           <h2 className="text-sm 2xl:text-lg text-zinc-300 ">
             Hi 👋, I’m a passionate frontend developer from India.
           </h2>
         </motion.div>
         <motion.div
-         initial={{opacity: 0 }}
-         animate={{  opacity: 1  }}
-         // exit={{ x: 0 }}
-         transition={{ ease: "easeInOut", duration: 0.5 }} className="my-4  z-[3] font-Poppins  md:tracking-wider">
-          <ul className="flex items-center justify-center gap-4">
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          // exit={{ x: 0 }}
+          transition={{ ease: "easeInOut", duration: 0.5 }}
+          className="my-4  z-[3] font-Poppins  md:tracking-wider"
+        >
+          <div className="flex items-center justify-center gap-4">
             <Link
               className="text-sm  duration-500 text-white  hover:text-green-500"
               to="/projects"
@@ -115,7 +119,7 @@ const Home = () => {
             >
               Contact
             </Link>
-          </ul>
+          </div>
         </motion.div>
       </>
     </div>
